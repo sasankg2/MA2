@@ -1,4 +1,12 @@
-
+/*
+1. A move constructor is temporarily moving values of one object to another and it is efficient since you are not making a copy of it
+2. Move assignment is similar to a move constructor but is invoked automatically when the right value is getting assigned
+3. O(1) since it is only checking once
+4. In the worst case scenario it is O(n) if you checked all the elements
+5. The worst and best case is O(n) since you need to check all of the elements
+6. The worst and best case is O(n) since you need to traverse through all the elements
+7. The worst and best case is O(n) since you need to traverse through all the elements
+*/
 #include <iostream>
 #include "BST.h" 
 
